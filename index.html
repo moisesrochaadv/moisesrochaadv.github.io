@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Moisés Rocha Advocacia. Advocacia consultiva e contenciosa nas áreas de Direito Civil, Família, Consumidor, Trabalhista e Previdenciário.">
+  <title>Moisés Rocha Advocacia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#inicio">Moisés Rocha <span>Advocacia</span></a>
+      <button class="menu" aria-label="Abrir menu">☰</button>
+      <nav>
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#atuacao">Áreas de atuação</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">MOISÉS ROCHA ADVOCACIA</p>
+          <h1>Atuação jurídica com seriedade, estratégia e proximidade.</h1>
+          <p class="lead">Atendimento personalizado para compreender cada situação e buscar, dentro da legislação, a solução jurídica adequada.</p>
+          <div class="actions">
+            <a class="btn primary" href="#contato">Entre em contato</a>
+            <a class="btn outline" href="#atuacao">Conheça a atuação</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <div class="photo-frame">
+            <img src="advogado.jpeg" alt="Moisés Rocha, advogado">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">SOBRE</p>
+          <h2>Advocacia próxima e responsável</h2>
+          <p>O escritório Moisés Rocha Advocacia atua com atendimento individualizado, buscando compreender os fatos, avaliar os documentos e definir a estratégia jurídica mais adequada para cada caso.</p>
+          <p>A comunicação clara e o acompanhamento do cliente fazem parte da forma de atuação do escritório.</p>
+        </div>
+        <div class="quote-card">
+          <div class="gold-line"></div>
+          <p>“Cada caso merece ser analisado com atenção, responsabilidade e respeito às particularidades de quem procura orientação jurídica.”</p>
+          <span>Moisés Rocha Advocacia</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="atuacao" class="section dark">
+      <div class="container">
+        <p class="eyebrow">ÁREAS DE ATUAÇÃO</p>
+        <h2>Como podemos atuar</h2>
+        <div class="cards">
+          <article class="card"><span>01</span><h3>Direito Civil</h3><p>Contratos, responsabilidade civil, indenizações, cobranças e outras demandas cíveis.</p></article>
+          <article class="card"><span>02</span><h3>Direito de Família</h3><p>Divórcio, alimentos, guarda, regulamentação de convivência, partilha e inventário.</p></article>
+          <article class="card"><span>03</span><h3>Direito do Consumidor</h3><p>Demandas envolvendo instituições financeiras, contratos, cobranças, fraudes e relações de consumo.</p></article>
+          <article class="card"><span>04</span><h3>Direito Trabalhista</h3><p>Orientação e atuação em demandas relacionadas às relações de trabalho e direitos do empregado.</p></article>
+          <article class="card"><span>05</span><h3>Direito Previdenciário</h3><p>Benefícios previdenciários e assistenciais, aposentadorias e demandas relacionadas ao INSS.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-intro">
+      <div class="container centered">
+        <p class="eyebrow">ATENDIMENTO</p>
+        <h2>Precisa de orientação jurídica?</h2>
+        <p>Entre em contato para apresentar sua situação e verificar a possibilidade de atendimento.</p>
+        <a class="btn primary" href="#contato">Solicitar atendimento</a>
+      </div>
+    </section>
+
+    <section id="contato" class="section contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">CONTATO</p>
+          <h2>Fale com o escritório</h2>
+          <p class="muted">Os dados abaixo podem ser substituídos pelos seus contatos profissionais antes da publicação.</p>
+        </div>
+        <div class="contact-box">
+          <p><strong>WhatsApp</strong><br><span>INSIRA SEU NÚMERO</span></p>
+          <p><strong>E-mail</strong><br><span>INSIRA SEU E-MAIL</span></p>
+          <p><strong>Atendimento</strong><br><span>Goiânia - Goiás</span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <div><strong>Moisés Rocha Advocacia</strong><br><small>OAB/GO: INSIRA O NÚMERO</small></div>
+      <small>Conteúdo meramente informativo. © 2026 Moisés Rocha Advocacia.</small>
+    </div>
+  </footer>
+
+  <script>
+    const menu = document.querySelector('.menu');
+    const nav = document.querySelector('nav');
+    menu.addEventListener('click', () => nav.classList.toggle('open'));
+    document.querySelectorAll('nav a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
+  </script>
+</body>
+</html>
