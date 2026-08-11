@@ -102,7 +102,7 @@ footer{background:#020d18;color:white;padding:22px 0}
 
 .blog-cards {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 28px;
     margin-top: 40px;
     width: 100%;
