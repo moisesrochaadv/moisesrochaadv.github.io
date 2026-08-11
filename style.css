@@ -232,3 +232,16 @@ section#blog .blog-tag {
     }
 
 }
+/* AJUSTE FINAL DO BLOG */
+
+@media (min-width: 801px) {
+    section#blog .blog-cards {
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+}
+
+@media (max-width: 800px) {
+    section#blog .blog-cards {
+        grid-template-columns: 1fr !important;
+        gap: 20px;
+    }
