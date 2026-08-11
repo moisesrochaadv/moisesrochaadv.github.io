@@ -27,7 +27,7 @@ nav a.active:after{content:"";position:absolute;height:4px;background:var(--gold
 .menu{display:none;background:none;border:0;color:white;font-size:28px}
 
 .hero{background:var(--navy);color:white}
-.hero-grid{display:grid;grid-template-columns:48% 52%;min-height:495px}
+.hero-grid{display:grid;grid-template-columns:42% 58%;min-height:495px}
 .hero-copy{padding:72px 30px 55px 40px;display:flex;flex-direction:column;justify-content:center}
 .eyebrow{color:var(--gold2);font-size:18px;letter-spacing:3px;font-weight:700;margin-bottom:18px}
 .eyebrow span{display:inline-block;width:50px;height:3px;background:var(--gold2);vertical-align:middle;margin-left:14px}
