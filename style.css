@@ -95,3 +95,62 @@ footer{background:#020d18;color:white;padding:22px 0}
   .footer-logo{margin:auto}
   .social{text-align:center}
 }
+
+/* BLOG */
+
+.blog-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin-top: 40px;
+}
+
+.blog-card {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 28px;
+  text-align: left;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.10);
+}
+
+.blog-tag {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #c99532;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.blog-card h3 {
+  margin-bottom: 12px;
+  color: #03111f;
+  font-size: 21px;
+  line-height: 1.3;
+}
+
+.blog-card p {
+  color: #08182a;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* BLOG NO CELULAR */
+
+@media (max-width: 800px) {
+  .blog-cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .blog-card {
+    padding: 22px;
+  }
+}
